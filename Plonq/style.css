@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.wrapper {
+    margin: 442px 1135px 0px 496px;
+    min-width: 390px;
+    color: white;
+}
+
+.wrapper a {
+    color: white;
+    text-decoration: none;
+}
+
+.new {
+    margin-left: -40px;
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.tagline {
+    font-size: 36px;
+    margin-top: 35px;
+}
+
+.btns {
+    margin-top: 55px;
+    display: flex;
+    font-size: 18px;
+    transition: all 400ms ease-in-out;
+}
+
+.buy-btn {
+    margin-left: auto;
+    border: 1px solid;
+    border-radius: 24px;
+    padding: 10px 100px;
+    margin-top: -4px;
+}
+
+.buy-btn:hover {
+    transform: scale(1.05);
+}
+
+.more-btn {
+    border-radius: 24px;
+    padding: 5px 40px 5px 0;
+}
+
+.more-btn p {
+    display: inline;
+}
+
+.more-btn .row {
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.more-btn:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 960px) {
+    body {
+        background-image: url(background960.jpg);
+    }
+
+    .wrapper {
+        margin: 150px 320px 0px 320px;
+        min-width: 320px;
+    }
+
+    .wrapper a {
+        color: black;
+        text-decoration: none;
+        opacity: 0.7;
+    }
+
+    .new {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+
+    .logo img{
+        margin-left: 51px;
+        width: 218px;
+        height: 33px;
+    }
+
+    .tagline {
+        margin-top: 28px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .btns {
+        margin-top: 700px;
+        opacity: 0.7;
+    }
+
+
+    .buy-btn {
+        margin-left: auto;
+        border: 1px solid;
+        border-radius: 24px;
+        padding: 10px 60px;
+        margin-top: -4px;
+        color: black;
+    }
+
+
+    .more-btn {
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
